@@ -1,0 +1,30 @@
+#title {
+	background-color: black;
+	color: yellow;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 auto;
+	font-size: 60px;
+	font-family: 'Amatic SC', regular;
+	float: center;
+
+}
+body {
+	background-image: radial-gradient(grey,white);
+
+}
+
+p {
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Amatic SC', bold;
+	font-size: 20px;
+
+}
+
+#button {
+	height: 25px;
+	font-family: 'Amatic SC', bold;
+
+}
