@@ -9,22 +9,93 @@
 	font-family: 'Amatic SC', regular;
 	float: center;
 
+
 }
 body {
-	background-image: radial-gradient(grey,white);
+	background-image: url("microchipbackground.jpg");
 
 }
 
 p {
 	text-align: center;
 	margin: 0 auto;
-	font-family: 'Amatic SC', bold;
+	font-family: 'Amatic SC', regular;
 	font-size: 20px;
 
 }
 
-#button {
-	height: 25px;
-	font-family: 'Amatic SC', bold;
+button {
+	height: 50px;
+	width: 60px;
+	font-size: 23px;
+	font-family: 'Amatic SC', regular;
+	display: flex; 
+	justify-content: center;
+	margin: 0 auto;
+	border-style: double;
+	bor
 
+}
+
+#button_holder {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#box_master {
+	display: grid;
+	background-color: black;
+	height: 700px;
+	width: 700px;
+	margin: 0 auto;
+	border-color: yellow;
+	border-style: dashed;
+
+}
+#box1 {
+	background-color: yellow;
+	height: 250px;
+	width: 250px;
+	border: dotted;
+	border-radius: 100px;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	margin: 0 auto;
+
+}
+
+#box2 {
+	background-color: deeppink;
+	height: 250px;
+	width: 250px;
+	border: dotted;
+	border-radius: 100px;
+	grid-column-start: 1;
+	grid-row-start: 2;
+	margin: 0 auto;
+}
+
+#box3 {
+	background-color: blue;
+	height: 250px;
+	width: 250px;
+	border: dotted;
+	border-radius: 100px;
+	grid-column-start: 2;
+	grid-row-start:1;
+	margin: 0 auto;
+}
+
+#box4 {
+	background-color: white;
+	height: 250px;
+	width: 250px;
+	border: dotted;
+	border-radius: 100px;
+	grid-column-start: 2;
+	grid-row-start:2;
+	margin: 0 auto;
 }

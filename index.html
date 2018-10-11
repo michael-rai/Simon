@@ -3,15 +3,23 @@
 <head>
 	<title>Simon!</title>
 	<link href="css/styles.css" rel="stylesheet">
+	<script src="simon_js.js"></script>
 </head>
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 	<div id="title"><h1>Simon!</h1></div>
 <body>
 	<p>Simon is a game to test your memory! Click "Run", observe the color sequence, and repeat it back!</p>
 	<br>
-	<div id=button>
-		<button>Run!</button>
+	<!--the div below holds my button-->
+	<div id="button_holder">
+		<button id="button"><strong>Run!</strong></button>
 	</div>
-	<br>
+	<!--The div below will hold for color divs-->
+	<div id="box_master">
+		<div id="box1" class="colorbox"></div>
+		<div id="box2" class="colorbox"></div>
+		<div id="box3" class="colorbox"></div>
+		<div id="box4" class="colorbox"></div>
+	</div>
 </body>
 </html>
